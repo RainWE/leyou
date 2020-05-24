@@ -6,3 +6,6 @@
     1. leyou-item-interface：分享一些pojo，接口，异常
     2. leyou-item-service：商品的微服务，对外提供rest接口的具体实现
 * leyou-registry：eureka服务的注册中心
+
+- ps:未处理
+- day8图片上传未解决，fastDFS与虚拟机nginx未处理完
