@@ -48,7 +48,7 @@ public class UploadService {
                 return null;
             }
             //保存到服务器
-            file.transferTo(new File("D:\\IntelliJ IDEAworkplace2\\项目\\image"+originalFilename));
+//            file.transferTo(new File("D:\\IntelliJ IDEAworkplace2\\项目\\image"+originalFilename));
 
             String ext =StringUtils.substringAfterLast(originalFilename,".");
             StorePath storePath=this.storageClient.uploadFile(file.getInputStream(),file.getSize(), ext, null);
