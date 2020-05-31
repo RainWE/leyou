@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d00d5963-d2c8-484b-b9dd-b457450b8e0c" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/service/UploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/target/classes/com/leyou/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +70,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-search/src/main/resources" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -87,6 +84,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-search\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-item\leyou-item-interface\src\main\java\com\leyou\item\pojo" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-upload\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-item\leyou-item-service\src\main\resources" />
@@ -245,7 +243,8 @@
       <workItem from="1590370131117" duration="10120000" />
       <workItem from="1590456080112" duration="2469000" />
       <workItem from="1590734428109" duration="9131000" />
-      <workItem from="1590805383971" duration="1729000" />
+      <workItem from="1590805383971" duration="2995000" />
+      <workItem from="1590892332783" duration="1339000" />
     </task>
     <servers />
   </component>

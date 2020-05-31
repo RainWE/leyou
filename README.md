@@ -6,6 +6,7 @@
     1. leyou-item-interface：分享一些pojo，接口，异常
     2. leyou-item-service：商品的微服务，对外提供rest接口的具体实现
 - leyou-registry：eureka服务的注册中心
+- leyou-search:elasticsearch搜索服务
 
 ```
 前端交互页面启动leyou-portal
@@ -41,6 +42,7 @@ nginx -s reload
 ps -ef | grep nginx
 
 # elasticsearch启动在linux
+elasticsearch在/home/leyou/elasticsearch/bin
 cd elasticsearch/bin
 ./elasticsearch
 
