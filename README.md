@@ -45,10 +45,11 @@ ps -ef | grep nginx
 elasticsearch在/home/leyou/elasticsearch/bin
 cd elasticsearch/bin
 ./elasticsearch
-
+无报错注意防火墙是否没关
 
 ```
-
+- ps:day12/p142 ElasticsearchTest没完成
+- 解决：linux未安装：IK分词器插件
 
 
 - leyou 后台后端代码
