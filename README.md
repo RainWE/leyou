@@ -50,7 +50,7 @@ cd elasticsearch/bin
 ```
 - ps:day12/p142 ElasticsearchTest没完成
 - 解决：linux未安装：IK分词器插件
-
+- ps:day12与13不熟悉，后面需要重新复习
 
 - leyou 后台后端代码
 - leyou-manage-web 后台界面前端代码
