@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d00d5963-d2c8-484b-b9dd-b457450b8e0c" name="默认更改列表" comment="" />
+    <list default="true" id="d00d5963-d2c8-484b-b9dd-b457450b8e0c" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/SpecificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,11 +88,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-goods-web\src\main\java\com\leyou\goods\client" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-goods-web\src\main\resources\templates" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-goods-web\src\main\resources" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-search\src\main\java\com\leyou\search\pojo" />
       <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-search\src\main\java\com\leyou\search\service" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-search\src\main\java\com\leyou\search\respository" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-item\leyou-item-interface\src\main\java\com\leyou\item\api" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-search\src\main\java\com\leyou\search\client" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -111,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticsearchTest.test">
+  <component name="RunManager" selected="Spring Boot.LeyouGoodsWebAppliaction">
     <configuration name="ElasticsearchTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leyou-search" />
       <extension name="coverage">
@@ -160,25 +167,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FdfsTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leyou-upload" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.upload.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leyou.upload.test" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.upload.test.FdfsTest" />
-      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="LeyouGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeyouGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="leyou-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGatewayApplication" />
+    <configuration name="LeyouGoodsWebAppliaction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-goods-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGoodsWebAppliaction" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LeyouResgistryApplication" />
+        <item itemvalue="Spring Boot.LeyouGoodsWebAppliaction" />
         <item itemvalue="JUnit.ElasticsearchTest.test" />
+        <item itemvalue="Spring Boot.LeyouResgistryApplication" />
         <item itemvalue="JUnit.FastDFSTest.testUpload" />
         <item itemvalue="JUnit.FdfsTest.testUpload" />
-        <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +236,22 @@
       <serviceView>
         <option name="contentProportion" value="0.19262294" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e5548086" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e5548086" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a58d873a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e5548086" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@be1cfcdf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -268,7 +287,7 @@
       <workItem from="1590892332783" duration="17154000" />
       <workItem from="1590925596667" duration="474000" />
       <workItem from="1590976058455" duration="7772000" />
-      <workItem from="1591062371188" duration="858000" />
+      <workItem from="1591062371188" duration="6517000" />
     </task>
     <servers />
   </component>

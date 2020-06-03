@@ -181,4 +181,7 @@ public class GoodsService {
 
     }
 
+    public Spu querySpuById(Long id) {
+        return this.spuMapper.selectByPrimaryKey(id);
+    }
 }
