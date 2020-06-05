@@ -48,8 +48,20 @@ cd elasticsearch/bin
 无报错注意防火墙是否没关
 
 ```
+```
+redis需要开机启动
+redis提供了服务端命令和客户端命令：
+
+- redis-server 服务端命令，可以包含以下参数：
+  start 启动
+  stop 停止
+- redis-cli 客户端控制台，包含参数：
+  -h xxx 指定服务端地址，缺省值是127.0.0.1
+  -p xxx 指定服务端端口，缺省值是6379
+```
 - ps:day12/p142 ElasticsearchTest没完成
 - 解决：linux未安装：IK分词器插件
+- Elasticsearch已解决：原因在于数据需要重写导入，重新导入sql语句
 - ps:day12与13不熟悉，后面需要重新复习
 
 
