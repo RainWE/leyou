@@ -1,7 +1,7 @@
 package com.leyou.search.client;
-
 import com.leyou.common.pojo.PageResult;
 import com.leyou.item.bo.SpuBo;
+import com.leyou.search.client.GoodsClient;
 import com.leyou.search.pojo.Goods;
 import com.leyou.search.respository.GoodsRepository;
 import com.leyou.search.service.SearchService;
@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -53,7 +52,7 @@ public class ElasticsearchTest {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                    return null;
+                return null;
             }).collect(Collectors.toList());
             this.goodsReponsitory.saveAll(goodsList);
 

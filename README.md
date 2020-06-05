@@ -52,6 +52,11 @@ cd elasticsearch/bin
 - 解决：linux未安装：IK分词器插件
 - ps:day12与13不熟悉，后面需要重新复习
 
+
+
 - leyou 后台后端代码
 - leyou-manage-web 后台界面前端代码
 - leyou-portal 前端主界面代码  
+
+- rabbitmq 
+- 账号：leyou 密码：123456

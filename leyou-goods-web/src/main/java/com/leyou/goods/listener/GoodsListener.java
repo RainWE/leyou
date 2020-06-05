@@ -1,6 +1,6 @@
-package com.leyou.search.listener;
+package com.leyou.goods.listener;
 
-import com.leyou.search.service.SearchService;
+import com.leyou.goods.service.GoodsHtmlService;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;
@@ -9,40 +9,40 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.io.IOException;
-
 /**
+ * @Auther:cdx
+ * @Date:2020-06-04
+ * @Description:com.leyou.goods.listener
+ * @Version:1.0
  * mq监听队列
  */
 @Component
 public class GoodsListener {
 
     @Autowired
-    private SearchService searchService;
-
+    private GoodsHtmlService goodsHtmlService;
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(value = "LEYOU.SEARCH.SAVE.QUEUE",durable = "true"),
+            value = @Queue(value = "LEYOU.ITEM.SAVE.QUEUE",durable = "true"),
             exchange = @Exchange(value = "LEYOU.ITEM.EXCHANGE",ignoreDeclarationExceptions = "true",type = ExchangeTypes.TOPIC),
-            key = {"item.insert", "item.update"}
+            key = {"item.insert","item.update"}
     ))
-    public void save(Long id) throws IOException {
-
-        if (id == null){
+    public void save(Long id){
+        if(id ==null){
             return;
         }
-        this.searchService.save(id);
-    }
+        this.goodsHtmlService.createHtml(id);
 
+    }
     @RabbitListener(bindings = @QueueBinding(
-            value = @Queue(value = "LEYOU.SEARCH.DELETE.QUEUE",durable = "true"),
+            value = @Queue(value = "LEYOU.ITEM.DELETE.QUEUE",durable = "true"),
             exchange = @Exchange(value = "LEYOU.ITEM.EXCHANGE",ignoreDeclarationExceptions = "true",type = ExchangeTypes.TOPIC),
             key = {"item.delete"}
     ))
-    public void delete(Long id) throws IOException {
-
-        if (id == null){
+    public void delete(Long id){
+        if(id ==null){
             return;
         }
-        this.searchService.delete(id);
+        this.goodsHtmlService.deleteHtml(id);
+
     }
 }

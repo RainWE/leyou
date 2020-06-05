@@ -44,4 +44,9 @@ public class GoodsHtmlService {
         }
 
     }
+
+    public void deleteHtml(Long id) {
+        File file = new File("D:\\Program Files (x86)\\tool\\nginx-1.12.2\\html\\item" + id + ".html");
+        file.deleteOnExit();
+    }
 }
