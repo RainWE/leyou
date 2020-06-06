@@ -64,7 +64,7 @@ public class UserService {
         Map<String,String> msg = new HashMap<>();
         msg.put("phone",phone);
         msg.put("code",code);
-        this.amqpTemplate.convertAndSend("leyou.sms.exchange","verifycode.sms",msg);
+        this.amqpTemplate.convertAndSend("LEYOU.SMS.EXCHANGE","verifycode.sms",msg);
 
         //把验证码保存到redis中
         this.redisTemplate.opsForValue().set(KEY_PREFIX + phone,code,5, TimeUnit.MINUTES);

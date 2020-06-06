@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date:2020-06-05
  * @Description:com.leyou
  * @Version:1.0
+ * 短信服务
  */
 @SpringBootApplication
 public class LeyouSmsApplication {

@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d00d5963-d2c8-484b-b9dd-b457450b8e0c" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/LeyouSmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-sms/src/main/java/com/leyou/LeyouSmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/src/main/java/com/leyou/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/target/classes/com/leyou/user/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,25 +78,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/utils" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leyou.gateway.config" />
       <recent name="com.leyou.item.mapper" />
       <recent name="com.leyou.config" />
       <recent name="com.leyou" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-common\src\main\java\com\leyou\common\utils" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-user\leyou-user-service\src\main\java\com\leyou\user" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-user\leyou-user-service\src\main\java\com\leyou\user\service" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-user\leyou-user-service\src\test\java" />
-      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-sms\src\main\java\com\leyou\sms" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-gateway\src\main\java\com\leyou" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-auth\leyou-auth-service\src\main\java\com\leyou\auth\config" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-auth\leyou-auth-common\src\test\java" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\common\pojo" />
+      <recent name="D:\IntelliJ IDEAworkplace2\项目\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\common\utils" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -116,23 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTest.testRedis2">
-    <configuration name="ElasticsearchTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leyou-search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.search.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leyou.search.client" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.search.client.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LeyouAuthApplication">
     <configuration name="RedisTest.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leyou-user-service" />
       <extension name="coverage">
@@ -161,6 +152,19 @@
       <option name="MAIN_CLASS_NAME" value="com.leyou.user.test.RedisTest" />
       <option name="METHOD_NAME" value="testRedis2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-auth-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTest.testRedis2" />
-        <item itemvalue="JUnit.RedisTest.testRedis" />
+        <item itemvalue="Spring Boot.LeyouAuthApplication" />
         <item itemvalue="Spring Boot.LeyouGoodsWebAppliaction" />
         <item itemvalue="Spring Boot.LeyouResgistryApplication" />
-        <item itemvalue="JUnit.ElasticsearchTest.test" />
+        <item itemvalue="JUnit.RedisTest.testRedis2" />
+        <item itemvalue="JUnit.RedisTest.testRedis" />
       </list>
     </recent_temporary>
   </component>
@@ -251,17 +255,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91938289" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aab96d00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91938289" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4b8718c5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aab96d00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ba163849" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91938289" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e085fc4d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aab96d00" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1c6bccf8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +310,8 @@
       <workItem from="1591148672879" duration="2890000" />
       <workItem from="1591238858023" duration="1925000" />
       <workItem from="1591276304077" duration="6731000" />
-      <workItem from="1591322707501" duration="15858000" />
+      <workItem from="1591322707501" duration="16534000" />
+      <workItem from="1591412407150" duration="13185000" />
     </task>
     <servers />
   </component>
