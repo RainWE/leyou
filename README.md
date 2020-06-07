@@ -20,6 +20,7 @@
     再通过UserService的sendVerifyCode(String phone)发送消息到rabbitMQ和发送到redis,
     leyou-ssm中的SmsListener监听得到消息发送验证码.
 - leyou-cart：购物车服务(与redis交互)
+- leyou-order:支付服务(具体看文档)
 ```
 前端交互页面启动leyou-portal
    npm install -g live-server
