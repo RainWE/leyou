@@ -19,6 +19,7 @@
     3. 如：leyou-user-service中UserController的sendVerifyCode(@RequestParam("phone")String phone)发送验证码,
     再通过UserService的sendVerifyCode(String phone)发送消息到rabbitMQ和发送到redis,
     leyou-ssm中的SmsListener监听得到消息发送验证码.
+- leyou-cart：购物车服务(与redis交互)
 ```
 前端交互页面启动leyou-portal
    npm install -g live-server
@@ -76,7 +77,7 @@ redis提供了服务端命令和客户端命令：
 - Elasticsearch已解决：原因在于数据需要重写导入，重新导入sql语句
 - ps:day12与13不熟悉，后面需要重新复习
 - ps:day16短信注册，后面需要根据新的阿里云文档进行更改
-
+- ps:tk.mybatis.mapper.common.Mapper了解如何与数据库交互
 
 
 - leyou 后台后端代码

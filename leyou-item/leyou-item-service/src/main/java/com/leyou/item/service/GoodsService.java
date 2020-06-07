@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -199,8 +198,21 @@ public class GoodsService {
         sendMsg("update",spuBo.getId());
 
     }
-
+    /**
+     * 根据spuId查Spu
+     * @param id
+     * @return
+     */
     public Spu querySpuById(Long id) {
+
         return this.spuMapper.selectByPrimaryKey(id);
+    }
+    /**
+     * 根据skuid查询sku
+     * @param skuId
+     * @return
+     */
+    public Sku querySkuBySkuId(Long skuId) {
+        return this.skuMapper.selectByPrimaryKey(skuId);
     }
 }
